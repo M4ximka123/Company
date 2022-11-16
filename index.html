@@ -9,6 +9,8 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/normalize.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="css/animate.min.css">
    <link rel="stylesheet" href="css/slick.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
@@ -165,7 +167,7 @@
    <div class="header__main">
       <div class="container">
          <div class="header__main-wrapper">
-            <div class="header__box-text">
+            <div class="header__box-text wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                <h1 class="header__title">Грузовые перевозки</h1>
                <p class="header__text">
                   Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка
@@ -195,7 +197,7 @@
       </div>
    </div>
    <main class="main">
-      <section class="services">
+      <section class="services wow animate__animated animate__fadeIn" data-wow-delay=".5s">
          <div class="container">
             <div class="services__wrapper">
                <div class="services__slider">
@@ -269,7 +271,7 @@
                <h2 class="prowide__title">
                   услуги
                </h2>
-               <div class="prowide__box">
+               <div class="prowide__box wow animate__animated animate__fadeInBottomRight" data-wow-delay=".5s">
                   <a class="prowide__box-item" href="#">
                      <p class="prowide__box-text">
                         Авиаперевозки
@@ -317,7 +319,7 @@
       <section class="about">
          <div class="container">
             <div class="about__wrapper">
-               <div class="about__info">
+               <div class="about__info wow animate__animated animate__fadeInLeft" data-wow-delay=".5s">
                   <h3 class="about__title">О компании</h3>
                   <p class="about__text">
                      Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
@@ -328,27 +330,27 @@
                   </p>
                </div>
                <div class="about__box">
-                  <div class="about__box-item box-item__white">
+                  <div class="about__box-item box-item__white wow animate__animated animate__flipInY" data-wow-delay="1s">
                      <h4 class="about__box-title">
                         48
                      </h4>
                      <h5 class="about__box-subtitle">офисов</h5>
                      <p class="about__box-text">В Европе и СНГ</p>
                   </div>
-                  <div class="about__box-item box-item__white">
+                  <div class="about__box-item box-item__white wow animate__animated animate__flipInY" data-wow-delay="1.1s">
                      <h4 class="about__box-title">
                         361
                      </h4>
                      <h5 class="about__box-subtitle">грузовиков</h5>
                      <p class="about__box-text">Volvo, Scania</p>
                   </div>
-                  <div class="about__box-item">
+                  <div class="about__box-item wow animate__animated animate__flipInY" data-wow-delay="1.2s">
                      <img class="about__box-img" src="images/about/truck.jpg" alt="автотрак">
                   </div>
-                  <div class="about__box-item">
+                  <div class="about__box-item wow animate__animated animate__flipInY" data-wow-delay="1.3s">
                      <img class="about__box-img" src="images/about/truck.jpg" alt="автотрак">
                   </div>
-                  <div class="about__box-item box-item__white">
+                  <div class="about__box-item box-item__white wow animate__animated animate__flipInY" data-wow-delay="1.4s">
                      <h4 class="about__box-title">
                         1500
                      </h4>
@@ -486,6 +488,7 @@
 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <script src="js/wow.min.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/main.js"></script>
 </body>

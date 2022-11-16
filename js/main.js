@@ -2,6 +2,8 @@ $(document).ready(function () {
    $('.services__slider').slick({
       nextArrow: '<button type="button" class="slick-prev">Назад</button>',
       prevArrow: '<button type="button" class="slick-next">След</button>',
+      autoplay: true,
+      autoplaySpeed: 3100,
       responsive: [{
          breakpoint: 1055,
          settings: {
@@ -22,3 +24,5 @@ $(document).ready(function () {
    });
 
 });
+
+new WOW().init();

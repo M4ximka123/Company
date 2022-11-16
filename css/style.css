@@ -507,7 +507,7 @@ body {
    align-items: center;
 }
 
-.footer__logo{
+.footer__logo {
    margin-bottom: 5px;
 }
 
@@ -537,15 +537,35 @@ body {
    line-height: 16px;
 }
 
-.footer__dev{
-   color: var(--main-color); 
+.footer__dev {
+   color: var(--main-color);
    margin-left: 250px;
    text-decoration: underline;
 }
 
-.burger-menu{
+.burger-menu {
    border: none;
    background-color: transparent;
    cursor: pointer;
    display: none;
 }
+
+.header__main-scroll>a {
+   position: absolute;
+   animation: mouseScroll 2s infinite;
+}
+
+@keyframes mouseScroll {
+   0% {
+      bottom: 30px;
+   }
+
+   50% {
+      bottom: 0;
+   }
+
+   100% {
+      bottom: 30px;
+   }
+}
+
